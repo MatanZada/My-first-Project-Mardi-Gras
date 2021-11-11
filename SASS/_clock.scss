@@ -1,0 +1,95 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.containerClock {
+    margin: 0;
+    padding: 0;
+    min-height: 30vh;
+    min-width: 30vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+
+}
+
+.timer {
+    margin: 10px 20px;
+    width: 120px;
+    background: $greenC;
+    text-align: center;
+    border-radius: 10px;
+    box-shadow: 15px 10px 20px $purpleDarkC;
+    cursor: pointer;
+
+}
+
+.timer p {
+    color: #fff;
+    font-size: 35px;
+    margin: 25px 8px;
+
+
+}
+
+.clock1 {
+    background: $yellowC;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.clock2 {
+    background: $purpleDarkC;
+}
+
+.clock3 {
+    background: $yellowC;
+}
+
+.clock4 {
+    background: $purpleDarkC;
+}
+
+.timer h6 {
+    margin: 0;
+    padding: 10px;
+    font-size: 1em;
+    color: #fff;
+    text-transform: uppercase;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+    box-shadow: 15px 10px 20px #000;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+
+
+
+@media(max-width:600px) {
+    .containerClock {
+        display: flex;
+        flex-wrap: wrap;
+    }
+
+    .timer {
+        min-width: none;
+        min-height: auto;
+        display: block;
+        margin-bottom: 20px;
+    }
+}
+
+.WatchTitle {
+    display: flex;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+}

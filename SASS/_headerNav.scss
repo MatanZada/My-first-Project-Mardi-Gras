@@ -1,0 +1,100 @@
+ a {
+     color: #fff;
+     font-family: 'Pattaya';
+     font-size: 1.7rem;
+ }
+
+ a:hover {
+     color: #6d160e;
+
+ }
+
+ .logoA {
+     width: 200px;
+
+     .logoNav {
+         position: absolute;
+         top: 10px;
+         left: 10px;
+         z-index: 999;
+     }
+ }
+
+ @media (max-width: 600px) {
+     .logoA {
+         width: 125px;
+
+         .logoNav {
+             position: relative;
+             width: 120px;
+         }
+     }
+ }
+
+ .headerNavb {
+     width: 100vw;
+     display: flex;
+ }
+
+ /* 
+ img[src="/img/logo1.png"] {
+     width: 100px;
+     height: 100px;
+ } */
+
+
+ /*  .imgLogo {
+     width: 200px;
+     height: 150px;
+     margin-left: 60px;
+ } */
+
+
+ .bgc-G {
+     background: rgb(140, 191, 63);
+     background: linear-gradient(344deg, rgba(140, 191, 63, 0.9671218829328606) 11%, rgba(148, 83, 166, 1) 50%, rgba(242, 204, 15, 0.8970938717283788) 92%);
+ }
+
+
+
+ .nav-link-Home {
+     color: $greenDark;
+     text-decoration: none;
+ }
+
+
+
+ .nav-link-About {
+     text-decoration: none;
+     color: $yellowC;
+ }
+
+ .nav-link-MediaNav {
+     color: $purpleDarkC;
+     text-decoration: none;
+ }
+
+ .nav-link-FAQnav {
+     color: $greenDark;
+     text-decoration: none;
+ }
+
+ .nav-link-ContactNav {
+     color: $yellowC;
+     text-decoration: none;
+ }
+
+ .nav-link-TriviaNav {
+     color: $purpleDarkC;
+     text-decoration: none;
+ }
+
+
+ .nav-item {
+     margin: 25px;
+
+     &:hover {
+         transform: rotate(10deg);
+
+     }
+ }

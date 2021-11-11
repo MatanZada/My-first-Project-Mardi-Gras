@@ -1,0 +1,80 @@
+.cardLaToya {
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.6);
+    border-radius: 8px;
+    width: 80%;
+    max-width: 480px;
+    display: flex;
+    flex-direction: column;
+    background: $colorbody;
+    color: $blackC;
+    text-align: center;
+    padding: 2em;
+}
+
+.social-list {
+    display: flex;
+    justify-content: space-around;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    width: 150px;
+    margin: 0 auto;
+}
+
+.social-link {
+    color: $yellowC;
+    opacity: 0.5;
+    font-size: 1.125rem;
+}
+
+.social-link:hover,
+.social-link:focus {
+    opacity: 1;
+}
+
+.profileimg {
+    width: 300px;
+    border-radius: 50%;
+    border: 5px solid white;
+}
+
+.profile-name {
+    font-size: 1.9rem;
+    line-height: 1.1;
+    letter-spacing: 1px;
+
+}
+
+.profile-body {
+    font-weight: 300;
+    opacity: 0.8;
+    margin-bottom: 0;
+
+}
+
+.profile-position {
+    margin: 0;
+    text-transform: uppercase;
+    font-size: 0.995rem;
+    letter-spacing: 3px;
+    color: $purpleDarkC;
+    margin-bottom: 2em;
+}
+
+.profile-name::after {
+    content: "";
+    display: block;
+    height: 5px;
+    width: 2em;
+    background: $purpleDarkC;
+    opacity: 0.85;
+}
+
+@media screen and (max-width: 600px) {
+    .cardLaToya {
+        width: 100%;
+        height: 100%;
+        display: block;
+        margin-bottom: 40px;
+    }
+}

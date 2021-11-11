@@ -1,0 +1,273 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mardi Grai</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Palette+Mosaic&display=swap" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/a076d05399.js" crossorigin="anonymous"></script>
+    <link rel="shortcut icon" href="/img/logo1.png">
+    <link rel="stylesheet" href="SASS/main.css">
+
+</head>
+
+
+<body>
+
+    <!-- HeaderNavBar -->
+    <header>
+        <nav class="navbar navbar-expand-lg navbar-light bgc-G">
+            <div class="container-fluid">
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#navbarTogglerDemo01" aria-controls="navbarTogglerDemo01" aria-expanded="false"
+                    aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <a class="navbar-brand logoA" href="#"><img class="logoNav" src="img/logo1.png" alt="Logo"></a>
+                <div class="collapse navbar-collapse" id="navbarTogglerDemo01">
+                    <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                        <li class="nav-item">
+                            <a class="nav-link-Home" aria-current="page" href="index.html">Home</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link-About" href="About.html">About</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link-MediaNav" href="/Media.html">Media</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link-FAQnav" href="/FAQ.html">FAQ</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link-ContactNav" href="/Contact.html">Contact</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link-TriviaNav" href="/Trivia.html">Trivia Bonus +</a>
+                        </li>
+                    </ul>
+                    <!--   <form class="d-flex">
+                        <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+                        <button class="btn btn-outline-success" type="submit">Search</button>
+                    </form> -->
+                </div>
+            </div>
+        </nav>
+    </header>
+
+
+    <!-- SliderImg -->
+    <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="carousel">
+        <div class="carousel-indicators">
+            <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active"
+                aria-current="true" aria-label="Slide 1"></button>
+            <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1"
+                aria-label="Slide 2"></button>
+            <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2"
+                aria-label="Slide 3"></button>
+            <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="3"
+                aria-label="Slide 4"></button>
+            <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="4"
+                aria-label="Slide 5"></button>
+        </div>
+        <div class="carousel-inner">
+            <div class="carousel-item active">
+                <img src="img/carnaval.jpg" class="d-block w-100" alt="...">
+                <div class="carousel-caption d-none d-md-block">
+                    <h5 class="carouselH">Welcome to the carnival Mardi Gras</h5>
+                    <p class="carouselP">Here you can see the carnival at its peak.</p>
+                </div>
+            </div>
+            <div class="carousel-item">
+                <img src="img/Masks.jpg" class="d-block w-100" alt="...">
+                <div class="carousel-caption d-none d-md-block">
+                    <h5 class="carouselH">Masks of all colors and shapes</h5>
+                    <p class="carouselP">From the masks what a beauty it is unbelievable</p>
+                </div>
+            </div>
+            <div class="carousel-item">
+                <img src="img/Masks5.jpg" class="d-block w-100" alt="...">
+                <div class="carousel-caption d-none d-md-block">
+                    <h5 class="carouselH">More masks in all shapes</h5>
+                    <p class="carouselP">Happy love masks without unbelievable happy food.</p>
+                </div>
+            </div>
+            <div class="carousel-item">
+                <img src="img/Masks2.jpg" class="d-block w-100" alt="...">
+                <div class="carousel-caption d-none d-md-block">
+                    <h5 class="carouselH">Fear faces scream</h5>
+                    <p class="carouselP">Colors blue masks can be seen carnival at its peak.</p>
+                </div>
+            </div>
+            <div class="carousel-item">
+                <img src="img/mediaImg/img3.jpg" class="d-block w-100" alt="...">
+                <div class="carousel-caption d-none d-md-block">
+                    <h5 class="carouselH">More masks in a variety of colors</h5>
+                    <p class="carouselP">Some representative placeholder content for the first slide.</p>
+                </div>
+            </div>
+        </div>
+        <!--   <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators"
+            data-bs-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators"
+            data-bs-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Next</span>
+        </button> -->
+    </div>
+
+
+    <br><br>
+
+    <!-- Short paragraph -->
+    <div class="container">
+        <h2 class="MardiGras">Mardi Gras 2021</h2>
+        <p class="para">Mardi Gras is a Christian holiday and popular cultural phenomenon that dates back thousands of
+            years to pagan spring and fertility rites. Also known as Carnival or Carnaval, it’s celebrated in many
+            countries around the world—mainly those with large Roman Catholic populations—on the day before the
+            religious season of Lent begins. Brazil, Venice and New Orleans play host to some of the holiday’s most
+            famous public festivities, drawing thousands of tourists and revelers every year.
+            Since 1947, Kern Studios has built the breathtaking floats that are seen in Mardi Gras parades and in
+            celebrations, both in New Orleans and around the world&ellips; all housed at Mardi Gras World.</p>
+    </div>
+
+    <br><br>
+    <h1 class="WatchTitle">The countdown began to the carnival</h1>
+    <div class="container">
+        <div class="containerClock">
+            <div class="timer">
+                <p id="day"></p>
+                <h6 class="clock1">days</h6>
+            </div>
+
+            <div class="timer">
+                <p id="hour"></p>
+                <h6 class="clock2">hours</h6>
+            </div>
+
+            <div class="timer">
+                <p id="minute"></p>
+                <h6 class="clock3">minutes</h6>
+            </div>
+
+            <div class="timer">
+                <p id="second"></p>
+                <h6 class="clock4">second</h6>
+            </div>
+        </div>
+    </div>
+
+
+    <br><br>
+
+    <!-- Cards -->
+    <div class="container">
+        <div class="card oneCard" style="width: 18rem;">
+            <img src="img/Doubtsimg3/rawImage.jfif" class="card-img-top" alt="...">
+            <div class="card-body">
+                <h5 class="card-title">Walk-On's Bistreaux and Bar</h5>
+                <p class="card-text">GAME DAY WITH A TASTE OF LOUISIANA 7801 Eastchase Pkwy, Montgomery, AL 36117, usa
+                </p>
+                <a href="https://walk-ons.com/" class="btn btn-primary">Go somewhere</a>
+            </div>
+        </div>
+        <div class="card twoCard" style="width: 18rem;">
+            <img src="img/Doubtsimg3/Sheraton.jpg" class="card-img-top" alt="...">
+            <div class="card-body">
+                <h5 class="card-title">Hotel Sheraton</h5>
+                <p class="card-text">come and see are deals 500 Canal Street New Orleans, Louisiana 70130 USA
+                </p>
+                <a href="http://www.experienceneworleans.com/" class="btn btn-primary">Go somewhere</a>
+            </div>
+        </div>
+        <div class="card treeCard" style="width: 18rem;">
+            <img src="img/Doubtsimg3/ace hotel.jpg" class="card-img-top" alt="...">
+            <div class="card-body">
+                <h5 class="card-title">Ace Hotel</h5>
+                <p class="card-text">Compare prices and find the best deal for the Ace Hotel New Orleans in New Orleans
+                    500 Canal St, New Orleans, LA 70130, usa</p>
+                <a href="https://www.neworleansrestaurants.com/" class="btn btn-primary">Go somewhere</a>
+            </div>
+        </div>
+        <div class="card forCard" style="width: 18rem;">
+            <img src="img/Doubtsimg3/The Ritz-Carlton.jpg" class="card-img-top" alt="...">
+            <div class="card-body">
+                <h5 class="card-title">The Ritz Carlton</h5>
+                <p class="card-text">The Ritz-Carlton Hotel Company, LLC is an American multinational company that
+                    resorts in 30 countries and territories with 29,158 rooms, in addition to 46 hotels with 8,755 rooms
+                    in the pipeline</p>
+                <a href="https://www.neworleanscoupons.com/" class="btn btn-primary">Go somewhere</a>
+            </div>
+        </div>
+        <div class="card forCard" style="width: 18rem;">
+            <img src="img/Doubtsimg3/Premium Parking - P402.png" class="card-img-top" alt="...">
+            <div class="card-body">
+                <h5 class="card-title">Premium Parking</h5>
+                <p class="card-text">Parking is the act of stopping and disengaging a vehicle and leaving it unoccupied.
+                    Countries and local governments
+                    have rules[1] for design and use of parking spaces.</p>
+                <a href="https://www.premiumparking.com/" class="btn btn-primary">Go somewhere</a>
+            </div>
+        </div>
+        <div class="card forCard" style="width: 18rem;">
+            <img src="img/Doubtsimg3/Louisiana Children's Museum.jfif" class="card-img-top" alt="...">
+            <div class="card-body">
+                <h5 class="card-title">Louisiana Children's</h5>
+                <p class="card-text">Children's museums are institutions that provide exhibits and programs to stimulate
+                    informal learning experiences for children, children's museums feature interactive exhibits that are
+                    designed to be manipulated by children.</p>
+                <a href="https://lcm.org/" class="btn btn-primary">Go somewhere</a>
+            </div>
+        </div>
+        <div class="card forCard" style="width: 18rem;">
+            <img src="img/Doubtsimg3/Museum of Death.jfif" class="card-img-top" alt="...">
+            <div class="card-body">
+                <h5 class="card-title">Museum of Death</h5>
+                <p class="card-text">Museum of Death is a museum with locations on Hollywood Boulevard in Hollywood, Los
+                    Angeles, and New Orleans. It was established in June 1995 by J. D. Healy and Catherine Shultz
+                    with the museum's stated goal being "to make people happy to be alive.</p>
+                <a href="http://www.museumofdeath.net/" class="btn btn-primary">Go somewhere</a>
+            </div>
+        </div>
+        <div class="card forCard" style="width: 18rem;">
+            <img src="img/Doubtsimg3/Haunted Museum.jfif" class="card-img-top" alt="...">
+            <div class="card-body">
+                <h5 class="card-title">Haunted Museum</h5>
+                <p class="card-text">Zachary Bagans is an American paranormal investigator, actor, television
+                    personality, museum operator, and author. He is the principal host of the Travel Channel series
+                    Ghost Adventures.</p>
+                <a href="https://thehauntedmuseum.com/" class="btn btn-primary">Go somewhere</a>
+            </div>
+        </div>
+    </div>
+
+
+    <br><br>
+    <!-- footer -->
+    <footer>
+        <div class="footer-content">
+            <h3>code opacity</h3>
+            <p> MardiGrasNewOrleans.com</p>
+        </div>
+        <div class="footer-bottom">
+            <p>copyright &copy;2021 Matan Zada student HackerU. designed by <span>MatanZada</span></p>
+        </div>
+    </footer>
+    </div>
+
+    <script src="js/countdowm.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous">
+    </script>
+
+</body>
+
+</html>

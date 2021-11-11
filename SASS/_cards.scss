@@ -1,0 +1,65 @@
+.container {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+
+}
+
+
+.card-img-top {
+    width: 285px;
+    height: 180px;
+
+}
+
+.card-img-top {
+
+    background-color: $colorbody;
+
+}
+
+.card-body {
+    background-color: $colorbody;
+    background: rgb(140, 191, 63);
+    background: linear-gradient(344deg, rgba(140, 191, 63, 0.9671218829328606) 11%, rgba(148, 83, 166, 1) 50%, rgba(242, 204, 15, 0.8970938717283788) 92%);
+
+}
+
+.btn:hover {
+    background-color: #6d160e;
+    border: 1px solid #000;
+}
+
+.btn {
+    background-color: $greenC;
+    border: 1px solid $whiteC;
+}
+
+.card:hover {
+    cursor: pointer;
+    transform: scale(1.07);
+    transition: all 1s ease;
+}
+
+.card {
+    margin: 10px;
+    text-align: center;
+
+}
+
+.oneCard {
+    border: $greenC solid 1.5px;
+}
+
+.twoCard {
+    border: $greenC solid 1.5px;
+
+}
+
+.treeCard {
+    border: $greenC solid 1.5px;
+}
+
+.forCard {
+    border: $greenC solid 1.5px;
+}

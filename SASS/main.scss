@@ -1,0 +1,23 @@
+@import "cssVar";
+@import "headerNav";
+@import "cards";
+@import "slider";
+@import "Footer";
+@import "paragraph";
+@import "LaToya";
+@import "Media";
+@import "faq";
+@import "contact";
+@import "clock";
+@import "Trivia";
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background: #fdf8e5;
+    overflow-x: hidden;
+}
